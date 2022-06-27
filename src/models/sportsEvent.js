@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const server = 'cluster0-ev6kx.mongodb.net';
 const database = 'eventdatastore';
 const user = 'burtons';
-const password = '9cEWllgZc2kGaXKi';
+const password = '';
 
 mongoose.connect(`mongodb+srv://${user}:${password}@${server}/${database}`);
 
